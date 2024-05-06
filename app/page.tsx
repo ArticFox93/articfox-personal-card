@@ -8,10 +8,11 @@ export default function Page() {
 
       <div className='border border-gray-400 rounded-lg shadow-md flex flex-col items-center p-8'>
         <Image height={56} width={56} alt="logo" src="/penguino.svg"/>
-        <div className='text-black text-xl justify-between'>@articfox93</div>
-        <div>software developer</div>
+        <div className='text-black text-xl justify-between font-extrabold'>@articfox93</div>
+        <div className='font-sans'>software developer</div>
+        <div>________</div>
 
-        <div className='flex p-5'>
+        <div className='flex p-5 gap-4'>
           <div>
             <Link href="https://facebook.com">
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
